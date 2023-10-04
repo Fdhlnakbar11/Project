@@ -5,6 +5,9 @@ body
     background-color: #090747;
 }
 
+
+/* Start Style of Landing Page */
+
 ul
 {
     list-style: none;
@@ -245,3 +248,7 @@ nav ul li a
     margin: 25px 0px 0px 25px;
     top: 156%;
 }
+
+/* end of primacy */
+
+/* End Style of Landing Page */
