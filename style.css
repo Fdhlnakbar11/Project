@@ -16,7 +16,7 @@ a
 }
 
 /* Login Button */
-.btn
+.btn1
 {
     border-radius: 15px;
     width: 145px;
@@ -26,16 +26,16 @@ a
     font-weight: 650;
 }
 
-.btn a
+.btn1 a
 {
     color: #DDF3F2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins';
     text-align: center;
 }
 /* action button (floating button) */
-/*.act-btn
+.act-btn
 {
-    background-color: aqua;
+    background-color: #DDF3F2;
     display: block;
     width: 50px;
     height: 50px;
@@ -51,19 +51,20 @@ a
     position: fixed;
     right: 30px;
     bottom:30px;
-}*/
+    z-index: 1;
+}
 
 .act-btn:hover
 {
-    background: rgb(0, 219, 208)
+    background: #EAE000
 }
 
-/*.icon
+.icon
 {
     width: 50px;
     position: center;
     bottom: 30px;
-}*/
+}
 /* and of action button (floating button) */
 
 /* start of navbar */
@@ -76,19 +77,19 @@ nav
     background-color: #DDF3F2;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
-    border-radius: 15px;
+    border-radius: 15px;    
 }
 
 nav ul
 {
     display: flex;
-    margin-left:400px;
+    margin-left:355px;
 }
 
 nav ul li
 {
     margin: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins';
     color: #090747;
     font-size: 16px;
     font-weight: 650;
@@ -99,17 +100,10 @@ nav ul li a
     color: #090747;
 }
 
-nav ul li a:hover
-{
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-}
-
 .logo
 {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins';
     color: #090747;
     font-size: 20px;
     font-weight: bold;
@@ -120,7 +114,7 @@ nav ul li a:hover
 #content
 {
     width: 100%;
-    height: 95vh;
+    height: 120vh;
     position: relative;
 }
 
@@ -128,29 +122,39 @@ nav ul li a:hover
 {
     line-height: 0px;
     margin: 55px 0px 25px;
-    position: absolute;
 }
 .content p:nth-child(1)
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-family:'Poppins';
+    font-weight: 600;
     color: rgb(0, 0, 107);
-    font-size: 20px;
+    font-size: 32px;
 }
 .content p:nth-child(2)
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-family: 'Poppins';
+    font-weight: 800 ;
     color: rgb(0, 0, 107);
     font-size: 30px;
+    margin-top: 80px;
+}
+
+.content p:nth-child(3)
+{
+    font-family: 'poppins';
+    font-weight: 600;
+    color: rgb(0, 0, 107);
+    font-size: 14px;
+
 }
 
 .content p:nth-child(4)
 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-family: 'Poppins';
+    font-weight: 600;
     color: rgb(0, 0, 107);
-    font-size: 20px;
+    font-size: 14px;
+    margin-top: 10px;
 
 }
 
@@ -161,13 +165,34 @@ nav ul li a:hover
     right: 10%;
     top: 20%;
     transform: translate(3%, 42%);
+    z-index: 1;
 }
-.object
+/* start of button daftar */
+.btn2
+{
+    width: 248px;
+    height: 52px;
+    border-radius: 15px;
+    background:#09074700;
+    border-color: #090747;
+    border-width: 4px;
+}
+
+.btn2 a
+{
+    color: #090747;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* end of button daftar */
+
+.object1
 {
     width: 1300px;
     height: 621px;
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 5%;
     left: 2%;
 }
 .pic
@@ -176,6 +201,47 @@ nav ul li a:hover
     height: 337;
     position: absolute;
     left: 70%;
-    top: 60%;
+    top: 50%;
 }
 /* end of content */
+
+/* start of primacy */
+.primacy
+{
+    height: 85vh;
+    padding: 2% 10% 10%;
+}
+
+.primacy.desc
+{
+    margin: 30px 50px;
+}
+
+.primacy-desc p:nth-child(1)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:azure;
+    font-size: 40px;
+    line-height: 0px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.primacy-desc p:nth-child(2)
+{
+    font-family: Poppins;
+    color:azure;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.object2
+{
+    width: 1304px;
+    height: 591px;
+    position: absolute;
+    margin: 25px 0px 0px 25px;
+    top: 156%;
+}
