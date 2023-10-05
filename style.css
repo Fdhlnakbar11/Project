@@ -213,7 +213,7 @@ nav ul li a
 .primacy
 {
     height: 85vh;
-    padding: 2% 10% 10%;
+    padding: 2% 0% 0%;
 }
 
 .primacy.desc
@@ -399,6 +399,8 @@ nav ul li a
 }
 
 /* end of primacy */
+
+/* start of  */
 
 /* End of Style Landing Page */
 
