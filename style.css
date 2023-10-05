@@ -170,6 +170,7 @@ nav ul li a
     transform: translate(3%, 42%);
     z-index: 1;
 }
+
 /* start of button daftar */
 .btn2
 {
@@ -240,15 +241,241 @@ nav ul li a
     margin-bottom: 16px;
 }
 
+.primacy-desc img
+{
+    width: 322px;
+    height: 322px;
+    position: absolute;
+    left: 975px;
+    margin-top: -110px;
+}
+
 .object2
 {
     width: 1304px;
-    height: 591px;
+    height: 691px;
     position: absolute;
     margin: 25px 0px 0px 25px;
     top: 156%;
+    z-index: -1;
+}
+
+.column1
+{
+    display: flex;
+    background-color: #090747;
+    margin: 200px 100px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.column1 img
+{
+    width: 37.54px;
+    height: 42.15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.column1 p
+{
+    margin-left: 5px;
+    margin-top: 15px;
+    z-index: 1;
+    color: #DDF3F2;
+}
+
+.column2
+{
+    display: flex;
+    background-color: #090747;
+    margin: -150px 600px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.column2 img
+{
+    width: 43.77px;
+    height: 37.19px;
+    margin-top: 23px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.column2 p
+{
+    margin-left: 135px;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    color: #DDF3F2;
+}
+
+.column3
+{
+    display: flex;
+    background-color: #090747;
+    margin: 195px 100px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.column3 img
+{
+    width: 40.54px;
+    height: 45.15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.column3 p
+{
+    margin-left: 135px;
+    margin-top: 25px;
+    z-index: 1;
+    color: #DDF3F2;
+    position: absolute;
+}
+
+.column4
+{
+    display: flex;
+    background-color: #090747;
+    margin: -150px 600px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.column4 img
+{
+    width: 40.54px;
+    height: 45.15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.column4 p
+{
+    margin-left: 100px;
+    margin-top: 25px;
+    z-index: 1;
+    color: #DDF3F2;
+    position: absolute;
 }
 
 /* end of primacy */
 
-/* End Style of Landing Page */
+/* End of Style Landing Page */
+
+/* Start of Style Login Page */
+
+* {
+    font-family: "Poppins", sans-serif;
+   
+  .html, body {
+      height: 100%;
+      background-color: #090747;
+  }
+  
+  .global-container h1 {
+      font-size: 20px;
+  }
+  .global-container {
+      height: 100%;
+      display: flex;
+      font-size: 17px;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #090747;
+  }
+  .login-form 
+  {
+    width: 590px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #DDF3F2 ;
+  }
+  
+  .btn button{
+  background-color: #090747;
+  color: #DDF3F2;
+  margin-left: 220px;
+  width: 97px;
+  height: 30px;
+  border-radius: 15px;
+  }
+
+  .btn-google {
+  width: 50%;
+  height: 39px;
+  flex-shrink: 0;
+  margin-left: 145px;
+  border-radius: 15px;
+  margin-top: 15px !important;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-family: Poppins;
+  color: #090747;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+  }
+
+  .login-form span 
+  {
+    margin-left: 170px;
+    color: #090747;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  
+  .login-form span a {
+      font-weight: 600;
+      color: #090747;
+      line-height: 40px;
+      }
+  }
+
+  /*End of Style Login Page  */
