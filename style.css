@@ -63,7 +63,7 @@ a
     background: #EAE000
 }
 
-.icon
+.icon-1
 {
     width: 50px;
     position: center;
@@ -200,7 +200,7 @@ nav ul li a
     top: 5%;
     left: 2%;
 }
-.pic
+.pic1
 {
     width: 366px;
     height: 337;
@@ -213,7 +213,7 @@ nav ul li a
 /* start of primacy */
 .primacy
 {
-    height: 85vh;
+    height: 172vh;
     padding: 2% 0% 0%;
 }
 
@@ -401,8 +401,229 @@ nav ul li a
 
 /* end of primacy */
 
-/* start of  */
+/* start of copywriting*/
+.copywriting
+{
+    height: 20vh;
+    padding: 2% 10% 10%;
+}
 
+.copywriting-desc
+{
+    margin: 50px 50px;
+}
+
+.copywriting-desc p:nth-child(2)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #090747;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+}
+
+.copywriting-desc p:nth-child(3)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 30px;
+    color:#090747;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+}
+
+.copywriting-desc p:nth-child(4)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 30px;
+    color:#090747;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+}
+
+.object3
+{
+    width: 1112px;
+    height: 243px;
+    position: absolute;
+    margin: 0px 0px 0px -50px;
+    top: 295%;
+    z-index: -1;
+}
+
+.pic2
+{
+    width: 336px;
+    height: 336px;
+    position: absolute;
+    margin-top: -185px;
+    margin-left: -60px;
+}
+
+/* end of copywriting*/
+
+/* start of course */
+#grid {
+    font-family: poppins;
+    padding: 15px 1%;
+    padding-bottom: 100px;
+}
+
+#grid h1 {
+    color:#DDF3F2;
+    text-align: center;
+    font-size: 48px;
+}
+
+#grid .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 50px;
+}
+
+#grid .grid-container .grid {
+    border-radius: 20px;
+    background: #DDF3F2;
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+.icon-2
+{
+margin-left: 10px;
+}
+
+.pic3
+{
+    width: 100px;
+    height: 100px;
+}
+
+#grid .grid-container .grid h3 {
+    color: #090747;
+    font-size: 20px;
+}
+
+#grid .grid-container .grid .btn-2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #090747;
+    color: #fff;
+    font-size: 16;
+    border-radius: 50px;
+    padding: 2px 30px;
+}
+
+#grid .grid-container .grid .btn-2 .pic {
+    height: 20px;
+    padding: 0px 0px;
+}
+/* end of course */
+
+/* start of copywriting-2 */
+.copywriting-2
+{
+    height: 35vh;
+    padding: 2% 10% 10%;
+}
+
+.copywriting-desc-2
+{
+    margin: 50px 50px;
+}
+
+.copywriting-desc-2 p:nth-child(2)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #090747;
+    font-size: 30px;
+    text-align: center;
+    margin-top: px;
+    margin-bottom: 0px;
+    margin-left: 185px;
+}
+
+.copywriting-desc-2 p:nth-child(3)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #090747;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 185px;
+}
+
+.copywriting-desc-2 p:nth-child(4)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #090747;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 185px;
+}
+
+.copywriting-desc-2 p:nth-child(5)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #090747;
+    font-size:30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 185px;
+}
+.pic4
+{
+    width: 336px;
+    height: 336px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -150px;
+    z-index: 1;
+}
+.object4
+{
+    position: absolute;
+    width: 1300px;
+    height: 304px;
+    margin-top: -250px;
+    margin-left: -158px;
+    z-index: -1;
+}
+
+/* end of copywriting-2 */
+
+/* start of footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: #DDF3F2;
+    border-radius: 10px;
+}
+
+.footer p {
+    color: #090747;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* end of footer */
 /* End of Style Landing Page */
 
 /* Start of Style Login Page */
