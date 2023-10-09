@@ -110,7 +110,7 @@ nav ul li img {
   'grid-1'
   'grid-2'
   'grid-3';
-  grid-template-rows: 20px 200px 20px;
+  grid-template-rows: 20px 200px 29px;
   border-radius: 15px;
   background: #DDF3F2;
   padding: 10px 10px;
@@ -144,7 +144,7 @@ nav ul li img {
   text-align: right;
 }
 
-#grid .grid-container .grid .grid-3 a {
+#grid .grid-container .grid .grid-3 .btn-2 {
   color: #DDF3F2;
   display: inline-flex;
   justify-content: end;
