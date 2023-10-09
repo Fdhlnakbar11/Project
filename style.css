@@ -883,7 +883,6 @@ nav .ul-pricing {
     z-index: 1;
 }
 
-
 #grid-pricing {
     font-family: poppins;
     padding: 15px 1%;
@@ -969,4 +968,5 @@ nav .ul-pricing {
     font-size: 20px;
     font-weight: 600;
   }
-  
+
+  /* End of Style Pricing */
