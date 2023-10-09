@@ -1,0 +1,96 @@
+/* All */
+
+body {
+    font-family: Poppins, Tahoma;
+    margin:0px;
+    padding:0px;
+    background-color: #090747;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.btn-1
+{
+    background-color: #090747;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.btn-1 a
+{
+    color: #DDF3F2;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #DDF3F2;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 2%;
+    border-radius: 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 30px;
+    font-family: 'Poppins';
+    color: #090747;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a {
+    color: #090747;
+}
+
+nav ul li img {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    font-family: 'Poppins';
+    color: #090747;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* End of Navbar */
+
+/* Content */
+
+/* End of Content */
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: #DDF3F2;
+    border-radius: 10px;
+}
+
+.footer p {
+    color: #090747;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* End of Footer */
