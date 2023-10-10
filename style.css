@@ -218,7 +218,7 @@ nav ul li a
     padding: 2% 0% 0%;
 }
 
-.primacy.desc
+.primacy-desc
 {
     margin: 30px 50px;
 }
@@ -969,3 +969,260 @@ nav .ul-pricing {
     font-weight: 600;
   }
   /* End of Style Pricing */
+
+/* -------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start of Style About */
+
+.btn-about
+{
+  background-color: #090747;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.btn-about a
+{
+  color: #DDF3F2;
+  font-weight: 500;
+}
+
+nav .ul-about {
+    display: flex;
+    align-items: center;
+    margin-left: 355px;
+}
+
+.icon-5 img
+{
+    width: 60px;
+    height: 60px;
+    margin-left: -70px;
+    z-index: 1;
+}
+
+.primacy-about
+{
+    height: 25vh;
+    padding: 2% 0% 0%;
+}
+
+.primacy-desc-about
+{
+    margin: 30px 50px;
+}
+
+.primacy-desc-about p:nth-child(1)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#DDF3F2;
+    font-size: 40px;
+    line-height: 0px;
+    text-align: center;
+    margin-top: -590px;
+    margin-bottom: 40px;
+}
+
+.primacy-desc-about p:nth-child(2)
+{
+    font-family: Poppins;
+    color:#DDF3F2;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.primacy-desc-about img
+{
+    width: 322px;
+    height: 322px;
+    position: absolute;
+    left: 975px;
+    margin-top: -110px;
+}
+
+.object2-about
+{
+    width: 1304px;
+    height: 773px;
+    position: absolute;
+    margin: 25px 0px 0px 25px;
+    top: 50%;
+    z-index: -1;
+}
+
+.column1-about
+{
+    display: flex;
+    background-color: #090747;
+    margin: 200px 100px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.column1-about img
+{
+    width: 37.54px;
+    height: 42.15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.column1-about p
+{
+    margin-left: 5px;
+    margin-top: 15px;
+    z-index: 1;
+    color: #DDF3F2;
+}
+
+.column2-about
+{
+    display: flex;
+    background-color: #090747;
+    margin: -150px 600px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.column2-about img
+{
+    width: 43.77px;
+    height: 37.19px;
+    margin-top: 23px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.column2-about p
+{
+    margin-left: 135px;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    color: #DDF3F2;
+}
+
+.column3-about
+{
+    display: flex;
+    background-color: #090747;
+    margin: 195px 100px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.column3-about img
+{
+    width: 40.54px;
+    height: 45.15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.column3-about p
+{
+    margin-left: 135px;
+    margin-top: 25px;
+    z-index: 1;
+    color: #DDF3F2;
+    position: absolute;
+}
+
+.column4-about
+{
+    display: flex;
+    background-color: #090747;
+    margin: -150px 600px;
+    width: 650px;
+    height: 87px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 20px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.column4-about img
+{
+    width: 40.54px;
+    height: 45.15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.column4-about p
+{
+    margin-left: 100px;
+    margin-top: 25px;
+    z-index: 1;
+    color: #DDF3F2;
+    position: absolute;
+}
+
+.about
+{
+    height: 25vh;
+    padding: 2% 0% 0%;
+}
+
+.about-desc
+{
+    margin: 30px 50px;
+}
+
+.about-desc p:nth-child(1)
+{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#DDF3F2;
+    font-size: 40px;
+    line-height: 0px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 40px;
+}
+
+.about-desc p:nth-child(2)
+{
+    font-family: Poppins;
+    color:#DDF3F2;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.object2-about1
+{
+    width: 1325px;
+    height: 363px;
+}
