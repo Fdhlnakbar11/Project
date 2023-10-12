@@ -77,16 +77,36 @@ nav ul li img {
 
 #content {
     background: #DDF3F2;
-    margin: 10% 12%;
+    margin: 2%;
     border-radius: 20px;
 }
 
-.content {
-    padding: 40px 100px;
+.form-profile {
+    display: flex;
+    margin-left: 3%;
+}
+
+.form-profile-1 img {
+    width: 200px;
+}
+
+.form-profile-1 h3 {
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.form-profile-2 h1 {
+    font-size: 60px;
 }
 
 .form-group {
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    display: flex;
 }
 
 .form-group label {
@@ -97,29 +117,8 @@ nav ul li img {
     font-weight: 700;
 }
 
-.form-group input,
-.form-group textarea {
-    width: 97.2%;
-    padding: 10px 10px;
-    outline: 0;
-    border: none;
-    border-radius: 5px;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.form-group .submit {
-    background-color: #090747;
-    color: #DDF3F2;
-    font-weight: 300;
-    margin-top: 10px;
-    padding: 4px 30px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transform: translateX(82.5vh);
+.gender label {
+    display: inline-block;
 }
 
 /* End of Content */
