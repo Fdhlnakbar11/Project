@@ -77,49 +77,71 @@ nav ul li img {
 
 #content {
     background: #DDF3F2;
-    margin: 10% 12%;
+    margin: 2%;
     border-radius: 20px;
+    padding-bottom: 5%;
 }
 
-.content {
-    padding: 40px 100px;
+.form-profile {
+    display: flex;
+    margin-left: 3%;
+}
+
+.form-profile-1 img {
+    width: 200px;
+}
+
+.form-profile-1 h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.form-profile-2 h1 {
+    font-size: 60px;
 }
 
 .form-group {
-    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.name {
+    display: flex;
+    align-items: flex-end;
+    width: 97.4%;
+}
+
+.name-1 {
+    padding-right: 86px;
 }
 
 .form-group label {
     display: block;
     margin: 20px 0 5px 0;
-    padding-left: 10px;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 800;
 }
 
-.form-group input,
-.form-group textarea {
-    width: 97.2%;
+.form-group input {
+    width: 95%;
     padding: 10px 10px;
     outline: 0;
     border: none;
     border-radius: 5px;
 }
 
-.form-group textarea {
-    resize: vertical;
+.form-group-column-1 {
+    width: 38.5%;
 }
 
-.form-group .submit {
-    background-color: #090747;
-    color: #DDF3F2;
-    font-weight: 300;
-    margin-top: 10px;
-    padding: 4px 30px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transform: translateX(82.5vh);
+.form-group-column-2 {
+    width: 38.5%;
+}
+
+.gender label {
+    display: inline-block;
 }
 
 /* End of Content */
