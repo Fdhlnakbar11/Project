@@ -140,8 +140,26 @@ nav ul li img {
     width: 38.5%;
 }
 
-.gender label {
-    display: inline-block;
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    width: 30%;
+    padding: 10px 10px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.gender .radio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gender input {
+    width: 5%;
 }
 
 /* End of Content */
