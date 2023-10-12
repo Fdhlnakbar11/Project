@@ -79,6 +79,7 @@ nav ul li img {
     background: #DDF3F2;
     margin: 2%;
     border-radius: 20px;
+    padding-bottom: 5%;
 }
 
 .form-profile {
@@ -91,7 +92,7 @@ nav ul li img {
 }
 
 .form-profile-1 h3 {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     margin: 0 0 10px;
 }
@@ -102,19 +103,41 @@ nav ul li img {
 
 .form-group {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-top: 2%;
 }
 
 .name {
     display: flex;
+    align-items: flex-end;
+    width: 97.4%;
+}
+
+.name-1 {
+    padding-right: 86px;
 }
 
 .form-group label {
     display: block;
     margin: 20px 0 5px 0;
-    padding-left: 10px;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 10px 10px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group-column-1 {
+    width: 38.5%;
+}
+
+.form-group-column-2 {
+    width: 38.5%;
 }
 
 .gender label {
