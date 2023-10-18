@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Navbar-->
+
+<!-- Action Button -->
+<a href="#logo" class="act-btn"><img class="icon-1" src="assets/icon/Arrow_Icon.png" alt="icon"></a>
+<!-- End of Action Button -->
+
+<!--Navbar-->
     <section id="header">
         <div class="navbar">
             <br>
             <nav>
-                <a href="home.html" class="logo"><img src="assets/logo/Logo_Website(Blue).png" alt="logo" style="width: 200px; position: absolute;"></a>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li class="btn-1"><a href="profile.html">User</a></li>
-                </ul>
+                <div id="logo">
+                    <a href="index.html" class="logo"><img src="assets/logo/Logo_Website(Blue).png" alt="logo"></a>
+                </div>
+                <div class="navbar-right">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <a href="profile.html" class="btn-4">User</a>
             </nav>
         </div>
 <!--End of Navbar-->
+
 <!--Content-->
-    <section id="content">
-        <div class="content">
+    <section id="content-profile">
+        <div class="content-profile">
             <form>
                 <div class="form-profile">
                     <div class="form-profile-1">
@@ -39,8 +49,8 @@
                         <h1>Profile</h1>
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="form-group-column-1">
+                <div class="form-group-profile">
+                    <div class="form-group-profile-column-1">
                         <div class="name">
                             <div class="name-1">
                                 <label for="nama-depan">Nama Depan</label>
@@ -60,7 +70,7 @@
                             <input type="text" name="nomor hp" id="nomor-hp">
                         </div>
                     </div>
-                    <div class="form-group-column-2">
+                    <div class="form-group-profile-column-2">
                         <div class="tempat">
                             <label for="tempat-lahir">Tempat Lahir</label>
                             <input type="text" name="tempat lahir" id="tempat-lahir">
@@ -166,6 +176,7 @@
         </div>
     </section>
 <!--End of Content-->
+
 <!--Footer-->
     <section id="footer">
         <div class="footer">
@@ -173,5 +184,6 @@
         </div>    
     </section>
 <!--End of Footer-->
+
 </body>
 </html>
