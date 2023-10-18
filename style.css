@@ -89,7 +89,7 @@ nav
 nav ul
 {
     display: flex;
-    margin-left: 355px;
+    margin-left:500px;
 }
 
 nav ul li
@@ -112,6 +112,11 @@ nav ul li a
     color: #090747;
     font-size: 20px;
     font-weight: bold;
+}
+
+.logo img
+{
+    margin-top: -30px;
 }
 /* end of navbar */
 /* -------------------------------------------------------------------------------------------------------- */

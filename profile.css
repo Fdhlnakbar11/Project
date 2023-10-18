@@ -71,6 +71,12 @@ nav ul li img {
     font-weight: bold;
 }
 
+.logo img
+{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
 /* End of Navbar */
 
 /* Content */
